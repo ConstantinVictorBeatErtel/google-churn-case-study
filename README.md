@@ -5,7 +5,7 @@
 
 ## Executive Summary
 
-This project investigates a significant spike in Q3 customer churn for **BizGrow**, a SaaS platform. By integrating usage logs and support ticket data, I identified a specific **"Poison Group"**—large customers onboarded after July 2023—who were responsible for **80% of total revenue loss**. The analysis revealed a causal link between feature overselling by sales teams and a **27% drop in customer productivity** at the four-month mark, ultimately threatening **$29M in contracts**.
+This project investigates a significant spike in Q3 customer churn for **BizGrow**, a SaaS platform. By integrating usage logs and support ticket data, we identified a specific **"Poison Group"**, which we defined as large customers onboarded after July 2023 who were responsible for **80% of total revenue loss**. The analysis revealed a causal link between feature overselling by sales teams and a **27% drop in customer productivity** at the four-month mark, ultimately threatening **$29M in contracts**.
 
 ## The Problem
 
@@ -20,7 +20,7 @@ BizGrow experienced an unexpected surge in churn, defined as a non-renewal event
 
 ## Methodology: Defining the "Poison Group"
 
-To isolate the root cause, I segmented the customer base to find the "Poison Group"—a minority of customers responsible for the majority of revenue loss.
+To isolate the root cause, we segmented the customer base to find the "Poison Group", which is a minority of customers responsible for the majority of revenue loss.
 
 * **Cohort Criteria:** Companies with **>50 employees** that initiated contracts in **July 2023 or later**.
 
@@ -92,9 +92,3 @@ I proposed a two-tiered strategy to stabilize the customer base and recover the 
 
   
 * Ray Zhang 
-
-
-
----
-
-**Would you like me to help you draft the "Technical Approach" section next, where we can describe the specific SQL logic you would use to isolate this "Poison Cohort"?**
