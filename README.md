@@ -1,8 +1,5 @@
 # Google Churn Case Study
 
-This README is designed to showcase your analytical process and business impact, mirroring the professional structure used in top-tier data science repositories.
-
----
 
 # BizGrow Customer Churn: Root Cause Analysis & Recovery Strategy
 
